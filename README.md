@@ -1,4 +1,4 @@
-# analysis-Google-Apple-profitable-apps
+# Mobile App Recommendations
 Google Play and Apple Store profitable mobile applications recommendations
 
 
@@ -18,7 +18,7 @@ For reference the six most used app monetization strategies (for free apps) are:
 * Sponsorships
 * Collecting and selling data
    
-To minimize risks and overhead, our validation strategy for an app idea has three steps:
+To minimize risks and overhead, our strategy for an app idea has three steps:
 
 * Build a minimal Android version of the app, and add it to Google Play.
 * If the app has a good response from users, we develop it further.
@@ -27,10 +27,14 @@ To minimize risks and overhead, our validation strategy for an app idea has thre
 Since we want to develop a new app for Google Play and iOS, the app profiles we pick need to be successful for both markets.
 
 ## Method
-Before we do any visualization or making and recommendations, we first need to do the following:
-* Load in the datasets
-* Clean data
-* Exploratory Data Analysis
+I've done some preliminary data exploration and cleaning. I'll be using a cleaned csv file for the analysis, the file name is called `google_apps_cleaned.csv`.
+We're only interested in analyzing mobile apps that are in English. The fictional company is located in the United States and only develops apps for an English-speaking audience.
+The dataset that the author scraped from the Google Play store contains over 2 million rows of mobile apps. After data cleaning there remains roughly 900,000 rows of data. The following steps were taken to remove unneccessary observations:
+* 7 columns dropped
+* Removed missing data
+* Removed apps that contain non-English characters in the `App Name` & `Developer Id` columns
+* Dropped a few duplicated apps
+* Filtered the current dataset to include only apps with at least 1 install and 1 rating
 
 ## Recommendations
 To make sound business decisions we need to perform a few tasks during analysis:
@@ -38,15 +42,6 @@ To make sound business decisions we need to perform a few tasks during analysis:
 * Gauge our competition, what types of apps are our competitors developing?
 
 ## Datasets:
-We'll be using two sample datasets from Kaggle.com to save time and resources of having to gather millions of records. 
+Raw dataset: `Google-Playstore.csv` *https://www.kaggle.com/datasets/gauthamp10/google-playstore-apps*
+Cleaned dataset: `google_apps_cleaned.csv` 
 
-Google Play dataset is comprised of about 10,000 apps.
-For this dataset we will be using the terms android, play store, or google interchangeably to reference Google Play Store.
-
-*https://www.kaggle.com/lava18/google-play-store-apps*
-
-Apple iOS contains around 7,000 apps.
-
-For this dataset we will be using the terms apple, iOS, or app store interchangeably to reference Apple iOS App Store.
-
-*https://www.kaggle.com/ramamet4/app-store-apple-data-set-10k-apps*
