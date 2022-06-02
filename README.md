@@ -48,11 +48,21 @@ Cleaned dataset: `google_apps_cleaned.csv`
 | Command | Description |
 | --- | --- |
 | App Name` | text |
-| `C | text |
-| `name` | text |
-| `name` | text |
-| `name` | text |
-| `name` | text |
-| `name` | text |
-| `name` | text |
+| `Category` | text |
+| `Rating` | text |
+| `Rating Count` | text |
+| `Installs` | text |
+| `Minimum Installs` | text |
+| `Maximum Installs` | text |
+| `Free` | text |
+| `Price` | text |
+| `Currency` | text |
+| `Developer Id` | text |
+| `Released` | text |
+| `Last Updated` | text |
+| `Content Rating` | text |
+| `Ad Supported` | text |
+| `In App Purchases` | text |
+| `Editors Choice` | text |
+| `Game` | text |
 
