@@ -50,7 +50,7 @@ Cleaned dataset: `google_apps_cleaned.csv`
 | `Free` | Whether or not an app is considered free to download/use, Boolean |
 | `Price` | The current price of an app |
 | `Currency` | The currency that an app is priced in |
-| `Developer Id` | text |
+| `Developer Id` | The name of the app developer |
 | `Released` | Release date |
 | `Last Updated` | The date an app was last updated by the developer |
 | `Content Rating` | Appropriate audience the app is suited for |
