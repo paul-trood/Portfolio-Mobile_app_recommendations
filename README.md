@@ -53,16 +53,16 @@ Cleaned dataset: `google_apps_cleaned.csv`
 | `Rating Count` | The total number of reviews |
 | `Installs` | How many times a particular app is downloaded, ordinal scale |
 | `Minimum Installs` | `Installs` and `Minimum Installs` are the same value except `Minimum Installs` is measured on a ratio scale  |
-| `Maximum Installs` | text |
-| `Free` | text |
-| `Price` | text |
-| `Currency` | text |
+| `Maximum Installs` | The total maximum number of downloads of an app |
+| `Free` | Whether or not an app is considered free to download/use, Boolean |
+| `Price` | The current price of an app |
+| `Currency` | The currency that an app is priced in |
 | `Developer Id` | text |
-| `Released` | text |
-| `Last Updated` | text |
-| `Content Rating` | text |
-| `Ad Supported` | text |
-| `In App Purchases` | text |
+| `Released` | Release date |
+| `Last Updated` | The date an app was last updated by the developer |
+| `Content Rating` | Appropriate audience the app is suited for |
+| `Ad Supported` | Whether or not the app supports ads, Boolean |
+| `In App Purchases` | Whether or not an app has in app purchases, Boolean |
 | `Editors Choice` | text |
 | `Game` | text |
 
