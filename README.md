@@ -45,14 +45,14 @@ To make sound business decisions we need to perform a few tasks during analysis:
 Raw dataset: `Google-Playstore.csv` *https://www.kaggle.com/datasets/gauthamp10/google-playstore-apps*
 Cleaned dataset: `google_apps_cleaned.csv`
 
-| Command | Description |
+| Column | Description |
 | --- | --- |
-| App Name` | text |
-| `Category` | text |
-| `Rating` | text |
-| `Rating Count` | text |
-| `Installs` | text |
-| `Minimum Installs` | text |
+| App Name` | The name of the app |
+| `Category` | The category an app belongs to |
+| `Rating` | Numerical rating 1 (lowest) to 5 (highest) |
+| `Rating Count` | The total number of reviews |
+| `Installs` | How many times a particular app is downloaded, ordinal scale |
+| `Minimum Installs` | `Installs` and `Minimum Installs` are the same value except `Minimum Installs` is measured on a ratio scale  |
 | `Maximum Installs` | text |
 | `Free` | text |
 | `Price` | text |
