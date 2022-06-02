@@ -43,5 +43,16 @@ To make sound business decisions we need to perform a few tasks during analysis:
 
 ## Datasets:
 Raw dataset: `Google-Playstore.csv` *https://www.kaggle.com/datasets/gauthamp10/google-playstore-apps*
-Cleaned dataset: `google_apps_cleaned.csv` 
+Cleaned dataset: `google_apps_cleaned.csv`
+
+| Command | Description |
+| --- | --- |
+| App Name` | text |
+| `C | text |
+| `name` | text |
+| `name` | text |
+| `name` | text |
+| `name` | text |
+| `name` | text |
+| `name` | text |
 
