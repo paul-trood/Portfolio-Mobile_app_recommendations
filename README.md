@@ -47,7 +47,7 @@ Cleaned dataset: `google_apps_cleaned.csv`
 
 | Column | Description |
 | --- | --- |
-| App Name` | The name of the app |
+| `App Name` | The name of the app |
 | `Category` | The category an app belongs to |
 | `Rating` | Numerical rating 1 (lowest) to 5 (highest) |
 | `Rating Count` | The total number of reviews |
@@ -63,6 +63,6 @@ Cleaned dataset: `google_apps_cleaned.csv`
 | `Content Rating` | Appropriate audience the app is suited for |
 | `Ad Supported` | Whether or not the app supports ads, Boolean |
 | `In App Purchases` | Whether or not an app has in app purchases, Boolean |
-| `Editors Choice` | text |
-| `Game` | text |
+| `Editors Choice` | *Some of the best Android apps of all-time on Google Play*, recommended by Google |
+| `Game` | Whether or not the app category is considered a game, Boolean |
 
