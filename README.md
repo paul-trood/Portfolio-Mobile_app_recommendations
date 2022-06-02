@@ -9,14 +9,6 @@ Google Play and Apple Store profitable mobile applications recommendations
 
 We're data analysts for an app development company in the United States. Over the last five years we have established a respectably sized customer based, but there are still opportunities to grow our customer base and increase revenue. We want to develop a new app that is a stand-alone free version that our customers will enjoy. To generate revenue, we may employ in-app purchases or a subscription-based model. 
 
-For reference the six most used app monetization strategies (for free apps) are:
-
-* App advertising
-* In-app purchases
-* Subscriptions
-* Selling merchandise
-* Sponsorships
-* Collecting and selling data
    
 To minimize risks and overhead, our strategy for an app idea has three steps:
 
@@ -43,6 +35,7 @@ To make sound business decisions we need to perform a few tasks during analysis:
 
 ## Datasets:
 Raw dataset: `Google-Playstore.csv` *https://www.kaggle.com/datasets/gauthamp10/google-playstore-apps*
+
 Cleaned dataset: `google_apps_cleaned.csv`
 
 | Column | Description |
