@@ -59,3 +59,22 @@ Cleaned dataset: `google_apps_cleaned.csv`
 | `Editors Choice` | *Some of the best Android apps of all-time on Google Play*, recommended by Google |
 | `Game` | Whether or not the app category is considered a game, Boolean |
 
+
+Raw dataset: `appleAppData.csv` *https://www.kaggle.com/datasets/gauthamp10/google-playstore-apps*
+
+Cleaned dataset: `apple_apps_cleaned.csv`
+
+| Column | Description |
+| --- | --- |
+| `App_Name` | The name of the app |
+| `Primary_Genre` | The category an app belongs to |
+| `Content_Rating` | Appropriate audience the app is suited for |
+| `Released` | Release date |
+| `Updated` | The date an app was last updated by the developer |
+| `Version` | Latest app version |
+| `Price` | The current price of an app |
+| `Free` | Whether or not an app is considered free to download/use, Boolean |
+| `Currency` | The currency that an app is priced in |
+| `Developer` | The name of the app developer |
+| `Average_User_Rating` | Numerical rating 1 (lowest) to 5 (highest) |
+| `Reviews` | The total number of reviews |
