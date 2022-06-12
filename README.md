@@ -19,14 +19,14 @@ To minimize risks and overhead, our strategy for an app idea has three steps:
 Since we want to develop a new app for Google Play and iOS, the app profiles we pick need to be successful for both markets.
 
 ## Method
-I've done some preliminary data exploration and cleaning. I'll be using a cleaned csv file for the analysis, the file name is called `google_apps_cleaned.csv`.
+I've done some preliminary data exploration and cleaning. I'll be using two cleaned csv files for the analysis, the file names are called `google_apps_cleaned.csv` and `apple_apps_cleaned.csv`.
 We're only interested in analyzing mobile apps that are in English. The fictional company is located in the United States and only develops apps for an English-speaking audience.
-The dataset that the author scraped from the Google Play store contains over 2 million rows of mobile apps. After data cleaning there remains roughly 900,000 rows of data. The following steps were taken to remove unneccessary observations:
-* 7 columns dropped
+The datasets that the author scraped from the Google Play and Apple store contains over several million rows of mobile apps. After data cleaning there remains roughly 40% of the original datasets. The following steps were taken to remove unneccessary observations:
+* 7 columns dropped from Google play
 * Removed missing data
 * Removed apps that contain non-English characters in the `App Name` & `Developer Id` columns
 * Dropped a few duplicated apps
-* Filtered the current dataset to include only apps with at least 1 install and 1 rating
+* Filtered the datasets to include only apps with at least 1 install and 1 rating
 
 ## Recommendations
 To make sound business decisions we need to perform a few tasks during analysis:
@@ -60,7 +60,7 @@ Cleaned dataset: `google_apps_cleaned.csv`
 | `Game` | Whether or not the app category is considered a game, Boolean |
 
 
-Raw dataset: `appleAppData.csv` *https://www.kaggle.com/datasets/gauthamp10/google-playstore-apps*
+Raw dataset: `appleAppData.csv` *https://www.kaggle.com/datasets/gauthamp10/apple-appstore-apps*
 
 Cleaned dataset: `apple_apps_cleaned.csv`
 
