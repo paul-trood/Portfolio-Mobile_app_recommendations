@@ -1,5 +1,5 @@
 # Portfolio Project #2
-# Google Play and Apple iOS App Recommendations
+## Google Play and Apple iOS App Recommendations
 Google Play and Apple Store profitable mobile applications recommendations
 ### Scenario:
 
