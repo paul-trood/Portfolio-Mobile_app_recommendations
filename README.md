@@ -1,7 +1,9 @@
 # Portfolio Project #2
 ## Google Play and Apple iOS App Recommendations
 Google Play and Apple Store profitable mobile applications recommendations
+
 Analysis performed using Python programming language
+
 Visualization accomplished using Matplotlib and Seaborn
 ### Scenario:
 
