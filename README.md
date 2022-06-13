@@ -1,6 +1,6 @@
 # Portfolio Project #2
 ## Google Play and Apple iOS App Recommendations
-Google Play and Apple Store profitable mobile applications recommendations
+Top 3 categories for app development for Google Play and Apple Store
 
 Analysis performed using **Python** programming language
 
