@@ -2,9 +2,9 @@
 ## Google Play and Apple iOS App Recommendations
 Google Play and Apple Store profitable mobile applications recommendations
 
-Analysis performed using Python programming language
+Analysis performed using **Python** programming language
 
-Visualization accomplished using Matplotlib and Seaborn
+Visualization accomplished using **Matplotlib and Seaborn**
 ### Scenario:
 
 We're data analysts for an app development company in the United States. Over the last five years we have established a respectably sized customer based, but there are still opportunities to grow our customer base and increase revenue. We want to develop a new app that is a stand-alone free version that our customers will enjoy. To generate revenue, we may employ in-app purchases or a subscription-based model. 
