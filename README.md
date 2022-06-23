@@ -4,6 +4,8 @@ Top 3 categories for app development for Google Play and Apple Store
 
 Analysis performed using **Python** programming language
 
+You can find the main notebook file as `app_profile.ipynb`.
+
 Visualization accomplished using **Matplotlib and Seaborn**
 ### Scenario:
 
